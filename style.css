@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    font-size: 24px;
+    letter-spacing: 2px;
+    color: currentColor;
+}
+
+a, a:visited, a:hover, a:active {
+    color: inherit;
+}
+
+/* Header */
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    padding-left: 48px;
+    padding-right: 48px;
+    background-color: black;
+}
+
+.header-logo {
+    color: rgb(255, 0, 0);
+    font-family: MaskdownOne
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 12px;
+    padding-right: 48px;
+    background-color: black;
+    color: white;
+}
+
+.nav-links {
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-link {
+    list-style: none;
+}
+
+.nav-link .drop-down li {
+    list-style: none;
+    height: 100%;
+    padding: 0.5rem 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.drop-down {
+    position: absolute;
+    padding: 0.5rem 0;
+    margin: 0rem -0.5rem;
+    background: black;
+    color: white;
+    font-size: 18px;
+    display: none;
+}
+
+.products:hover .drop-down {
+    display: block;
+}
+
+/* Hero */
